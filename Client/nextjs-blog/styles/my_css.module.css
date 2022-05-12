@@ -1,0 +1,100 @@
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
+}
+.center, .center-align {
+    text-align: center;
+}
+@media only screen and (max-width: 992px) {
+    table.responsive-table {
+        width: 100%;
+        border-collapse: collapse;
+        border-spacing: 0;
+        display: block;
+        position: relative;
+        /* sort out borders */
+    }
+    table.responsive-table td:empty:before {
+        content: '\00a0';
+    }
+    table.responsive-table th,
+    table.responsive-table td {
+        margin: 0;
+        vertical-align: top;
+    }
+    table.responsive-table th {
+        text-align: left;
+    }
+    table.responsive-table thead {
+        display: block;
+        float: left;
+    }
+    table.responsive-table thead tr {
+        display: block;
+        padding: 0 10px 0 0;
+    }
+    table.responsive-table thead tr th::before {
+        content: "\00a0";
+    }
+    table.responsive-table tbody {
+        display: block;
+        width: auto;
+        position: relative;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    table.responsive-table tbody tr {
+        display: inline-block;
+        vertical-align: top;
+    }
+    table.responsive-table th {
+        display: block;
+        text-align: right;
+    }
+    table.responsive-table td {
+        display: block;
+        min-height: 1.25em;
+        text-align: left;
+    }
+    table.responsive-table tr {
+        border-bottom: none;
+        padding: 0 10px;
+    }
+    table.responsive-table thead {
+        border: 0;
+        border-right: 1px solid rgba(0, 0, 0, 0.12);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .center-on-small-only {
+        text-align: center;
+    }
+}
+
+.page-footer {
+    padding-top: 20px;
+    color: #fff;
+    background-color: #ee6e73;
+}
+
+.page-footer .footer-copyright {
+    overflow: hidden;
+    min-height: 50px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 10px 0px;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(51, 51, 51, 0.08);
+}

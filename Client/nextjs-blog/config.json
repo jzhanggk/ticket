@@ -1,0 +1,7 @@
+{
+  "private_key": "e48d491f3836013b8ae0bd755f96c4fa5a9833f8194fcef681651a33ddda2149",
+  "network": "https://rpc.debugchain.net/",
+  "address": "0xD9D01806B03f08Ec4beeaf4567b6b16e481036B4",
+  "token_address":  "0xCA67220Fe68B922A7a643860df1de2AD3FAdcD9c",
+  "factory_address": "0x81EdC3599Fa7E16073BCD6868575ec236e42DB6c"
+}
