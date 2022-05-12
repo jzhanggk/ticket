@@ -77,10 +77,10 @@ class Purchase extends Component {
                                 let tmp = (
                                     <tr>
 
-                                        <td class="center">{TicketName}</td>
+                                        <td className="center">{TicketName}</td>
 
-                                        <td class="center">{TicketSymbol}</td>
-                                        <td class="center">{lottNumber.toString()}</td>
+                                        <td className="center">{TicketSymbol}</td>
+                                        <td className="center">{lottNumber.toString()}</td>
                                         {/*<td class="center"><button type="submit" className="custom-btn login-btn" >Buy</button></td>*/}
                                         <td><button type="button"  TicketName = {TicketName} TicketSymbol = {TicketSymbol} lottNumber = {lottNumber} className="btn btn-primary" onClick={handleClick}>Submit</button></td>
                                     </tr>
